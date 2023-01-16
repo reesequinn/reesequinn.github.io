@@ -1,0 +1,83 @@
+.top-left {
+    display: flex;
+    float: left;
+    justify-content: left;
+    width: viewport-length / 2;
+    margin-top: 0.1rem;
+}
+
+.top-right {
+    display: flex;
+    float: right;
+    justify-content: right;
+    width: viewport-length / 2;
+    margin: 0 auto;
+    margin-top: 0.1rem;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    padding-left: 0rem;
+    padding-right: 0.25rem;
+}
+
+.title {
+    font-size: 1.5rem;
+    color: cadetblue;
+
+    display: flex;
+    justify-content: center;
+    width: viewport-length;
+    margin: 0 auto;
+    margin: 0.1rem;
+}
+
+.subtitle {
+    color: gray;
+    margin: 0.5rem;
+}
+
+input {
+    color: gray;
+    outline-color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.paragraphs {
+    color: gray;
+    margin-left: 1rem;
+}
+
+.bio {
+    display: flex;
+    margin-left: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.header {
+    text-align: left;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background-color: rgb(154, 149, 186);
+    color: rgb(58, 58, 58);
+}
+
+.table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+td {
+    font-size: 1rem;
+    padding: 8px;
+    color: cadetblue;
+}
+
+.table tr:nth-child(even){background-color: gainsboro};
