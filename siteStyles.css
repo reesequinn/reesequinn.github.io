@@ -40,9 +40,8 @@
 
 .cols {
     float: left;
-    width: 23%;
-    margin: 5%;
-    height: 250px;
+    padding: 50px;
+    margin: 50px;
     background-color: gray;
     color:white;
     text-align: center;
@@ -50,6 +49,19 @@
 
 .cols:hover {
     background-color: rgb(154, 149, 186);
+}
+
+.cols:hover .thumbnail{
+    background-color: rgb(154, 149, 186);
+}
+
+.thumbnail {
+    position: absolute;
+    bottom: 250px;
+    left: 180px;
+    color: white;
+    padding: 0.25rem;
+    background-color: gray;
 }
 
 input {
@@ -85,7 +97,6 @@ body {
     border-collapse: collapse;
     width: 90%;
     margin: 0 auto;
-
 }
 
 td {
