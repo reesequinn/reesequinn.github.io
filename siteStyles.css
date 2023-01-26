@@ -38,6 +38,20 @@
     margin: 0.5rem;
 }
 
+.cols {
+    float: left;
+    width: 23%;
+    margin: 5%;
+    height: 250px;
+    background-color: gray;
+    color:white;
+    text-align: center;
+}
+
+.cols:hover {
+    background-color: rgb(154, 149, 186);
+}
+
 input {
     color: gray;
     outline-color: gray;
