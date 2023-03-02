@@ -48,18 +48,6 @@
     text-align: center;
 }
 
-.cols:hover {
-    background-color: rgb(154, 149, 186);
-}
-
-.cols:hover .label{
-    background-color: rgb(154, 149, 186);
-}
-
-.cols:hover .thumbnail{
-    filter: grayscale(0);
-}
-
 .thumbnail{
     filter: grayscale(1);
     width: 300px;
