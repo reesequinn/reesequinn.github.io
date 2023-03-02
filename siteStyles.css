@@ -34,11 +34,12 @@
 }
 
 .subtitle {
-    color: gray;
+    color: rgb(154, 149, 186);
     margin: 0.5rem;
 }
 
 .cols {
+    position: relative;
     float: left;
     padding: 50px;
     margin: 50px;
@@ -68,8 +69,9 @@
 
 .label {
     position: absolute;
-    bottom: 250px;
-    left: 180px;
+    bottom: 170px;
+    left: 50%;
+    transform: translateX(-50%);
     color: white;
     padding: 0.25rem;
     background-color: gray;
