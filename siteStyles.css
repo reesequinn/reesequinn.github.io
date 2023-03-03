@@ -61,7 +61,7 @@ td {
 
 /* for Projects */
 
-.cols-unpublished{
+.colsunpublished{
     position: relative;
     float: left;
     padding: 50px;
@@ -79,18 +79,6 @@ td {
     background-color: gray;
     color:white;
     text-align: center;
-}
-
-.cols:hover {
-    background-color: rgb(154, 149, 186);
-}
-
-.cols:hover .label{
-    background-color: rgb(154, 149, 186);
-}
-
-.cols:hover .thumbnail{
-    filter: grayscale(0);
 }
 
 .thumbnail{
