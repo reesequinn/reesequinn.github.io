@@ -1,3 +1,5 @@
+/* for heading */
+
 .top-left {
     display: flex;
     float: left;
@@ -22,31 +24,7 @@
     padding-right: 0.25rem;
 }
 
-.title {
-    font-size: 1.5rem;
-    color: cadetblue;
-
-    display: flex;
-    justify-content: center;
-    width: viewport-length;
-    margin: 0 auto;
-    margin: 0.1rem;
-}
-
-.subtitle {
-    color: gray;
-    margin: 0.5rem;
-}
-
-input {
-    color: gray;
-    outline-color: gray;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+/* for About */
 
 .paragraphs {
     color: gray;
@@ -71,7 +49,6 @@ body {
     border-collapse: collapse;
     width: 90%;
     margin: 0 auto;
-
 }
 
 td {
@@ -81,3 +58,95 @@ td {
 }
 
 .table tr:nth-child(even){background-color: gainsboro};
+
+/* for Projects */
+
+.cols-unpublished{
+    position: relative;
+    float: left;
+    padding: 50px;
+    margin: 50px;
+    background-color: gray;
+    color:white;
+    text-align: center;
+}
+
+.cols {
+    position: relative;
+    float: left;
+    padding: 50px;
+    margin: 50px;
+    background-color: gray;
+    color:white;
+    text-align: center;
+}
+
+.cols:hover {
+    background-color: rgb(154, 149, 186);
+}
+
+.cols:hover .label{
+    background-color: rgb(154, 149, 186);
+}
+
+.cols:hover .thumbnail{
+    filter: grayscale(0);
+}
+
+.thumbnail{
+    filter: grayscale(1);
+    width: 300px;
+    height: 300px;
+    background-color: white;
+}
+
+.label {
+    position: absolute;
+    bottom: 170px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    padding: 0.25rem;
+    background-color: gray;
+}
+
+/* for project pages*/
+
+.description {
+    margin-left: 1rem;
+}
+
+.screenshot{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:fit-content;
+}
+
+/* for multiple pages */
+
+.title {
+    font-size: 1.5rem;
+    color: cadetblue;
+
+    display: flex;
+    justify-content: center;
+    width: viewport-length;
+    margin: 0 auto;
+    margin: 0.1rem;
+}
+
+.subtitle {
+    color: rgb(154, 149, 186);
+    margin: 0.5rem;
+}
+
+input {
+    color: gray;
+    outline-color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
