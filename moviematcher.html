@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+
+        <title>Reese Quinn</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="siteStyles.css">
+
+    </head>
+
+    <body>
+        <div >
+
+            <input value="Projects" type="submit" class="button" onclick="location.href = 'index.html';" class="top-left">
+            <input value="About" type="submit" class="button" onclick="location.href = 'about.html';" class="top-left">
+
+            <a href="https://www.linkedin.com/in/reese-quinn-0b38911b8/"class="top-right">
+                <img src=images/linkedin.png alt = "linkedin logo" class="icon">
+            </a>
+            <a href="https://github.com/m-qu" class="top-right">
+                <img src=images/github.png alt = "github logo" class="icon">
+            </a>
+
+        </div>
+
+        <div class = "title">
+            <h1>Movie Matcher</h1>
+        </div>
+
+        <div class="subtitle">
+            <h2>Assignment Description</h2>
+        </div>
+
+        <div class="description">
+            <h3>
+                The assignment for this project was to compare the performance of two data structures. I led a
+                team of myself and two other classmates. Together we created this application to provide 
+                information on movies and suggest movie titles based on genres and key words. 
+            </h3>
+            <div class="screenshot">
+                <img src="images/Minesweeper/SFML.png" alt="SFML logo", width="300px">
+            </div>
+            <h3>
+                To create the GUI, we used Simple and Fast Multimedia Library (SFML). SFML is essentially a hardware 
+                abstraction API. It allows the programmer to easily render assets using C++ library. While SFML 
+                is not geared toward this kind of project, this was only our second project that was not solely 
+                command line. By creating our own assests, we were able to use technology we were already familiar 
+                with from a previous project. 
+            </h3>
+        </div>
+
+        <div class="subtitle">
+            <h2>About the Data Structures</h2>
+        </div>
+
+        <div class="description">
+            <h3>
+                We compared the two data structures below based on the time it took to retreive the seach results. 
+                <ol type="A">
+                    <li>
+                        <b>Heap</b>: The slower data structure we used as a max heap ordered by ID. It was 
+                        implemented using the priority_queue class in the C++ standard library. Its search 
+                        has a time complexity of O(n).
+                    </li>
+                    <li>
+                        <b>Map</b>: The faster data structure we used was a map, using the C++ standard library 
+                        map with the ID as the key. This map is usually implemented as a red-black tree, which has 
+                        a search time complexity of O(logn). 
+                    </li>
+                </ol>
+            </h3>
+        </div>
+
+        <div class="subtitle">
+            <h2>Project Structure</h2>
+        </div>
+
+        <div class="description">
+            <h3>
+                Classes included Movie, Rating, Storage, and Background. 
+                Class diagram to come.
+                Below are screenshots of the finished product. 
+            </h3>
+        </div>
+
+        <div class="screenshot">
+            <img src="images/MovieMatcher/moviematchersearch.png" alt="screenshot of search result">
+        </div>
+        <div class="screenshot">
+            <img src="images/MovieMatcher/moviematchersearch2.png" alt="screenshot of search for action">
+        </div>
+
+    </body>
+
+</html>
