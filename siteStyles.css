@@ -1,5 +1,36 @@
 /* colors: #AF5633, #3E7B68 */
 
+/* for multiple pages */
+
+.title {
+    font-size: 1.5rem;
+    color: #AF5633;
+    display: flex;
+    justify-content: center;
+    width: viewport-length;
+    margin: 0 auto;
+    margin: 0.1rem;
+}
+
+.subtitle {
+    color: #3E7B68;
+    margin: 0.5rem;
+}
+
+input {
+    color: gray;
+    outline-color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h3 {
+    color: rgb(51, 51, 51);;
+}
+
 /* for heading */
 
 .top-left {
@@ -29,8 +60,9 @@
 /* for About */
 
 .paragraphs {
-    color: rgb(51, 51, 51);;
+    color: rgb(51, 51, 51);
     margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .bio {
@@ -114,44 +146,19 @@ td {
 
 .description {
     margin-left: 1rem;
+    font-weight: lighter;
+    color: rgb(51, 51, 51);
 }
 
 .screenshot{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width:fit-content;
+    width: fit-content;
 }
 
-/* for multiple pages */
-
-.title {
-    font-size: 1.5rem;
-    color: #AF5633;
-    display: flex;
-    justify-content: center;
-    width: viewport-length;
-    margin: 0 auto;
-    margin: 0.1rem;
-}
-
-.subtitle {
-    color: #3E7B68;
-    margin: 0.5rem;
-}
-
-input {
-    color: gray;
-    outline-color: gray;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-h3 {
-    color: rgb(51, 51, 51);;
+h3{
+    font-weight: normal;
 }
 
 .table tr:nth-child(even){background-color: gainsboro};
