@@ -1,3 +1,5 @@
+/* colors: #AF5633, #3E7B68 */
+
 /* for heading */
 
 .top-left {
@@ -27,7 +29,7 @@
 /* for About */
 
 .paragraphs {
-    color: gray;
+    color: rgb(51, 51, 51);;
     margin-left: 1rem;
 }
 
@@ -41,8 +43,8 @@
     text-align: left;
     padding-top: 18px;
     padding-bottom: 18px;
-    background-color: rgb(154, 149, 186);
-    color: rgb(58, 58, 58);
+    background-color: #AF5633;
+    color: black;
 }
 
 .table {
@@ -54,7 +56,7 @@
 td {
     font-size: 1rem;
     padding: 8px;
-    color: cadetblue;
+    color: #3E7B68;
 }
 
 /* for Projects */
@@ -80,11 +82,11 @@ td {
 }
 
 .cols:hover {
-    background-color: rgb(154, 149, 186);
+    background-color: #AF5633;
 }
 
 .cols:hover .label{
-    background-color: rgb(154, 149, 186);
+    background-color: #AF5633;
 }
 
 .cols:hover .thumbnail{
@@ -125,8 +127,7 @@ td {
 
 .title {
     font-size: 1.5rem;
-    color: cadetblue;
-
+    color: #AF5633;
     display: flex;
     justify-content: center;
     width: viewport-length;
@@ -135,7 +136,7 @@ td {
 }
 
 .subtitle {
-    color: rgb(154, 149, 186);
+    color: #3E7B68;
     margin: 0.5rem;
 }
 
@@ -147,6 +148,10 @@ input {
 
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h3 {
+    color: rgb(51, 51, 51);;
 }
 
 .table tr:nth-child(even){background-color: gainsboro};
