@@ -28,17 +28,51 @@
         </div>
 
         <div class = "title">
-            <h1>Reese Quinn</h1>
+            <h1>Minesweeper</h1>
         </div>
 
         <div class="subtitle">
-            <h2>Minesweeper</h2>
+            <h2>Assignment Description</h2>
         </div>
 
         <div class="description">
-            <h3>The assignment for this project was to re-create the classic logic puzzle game Minesweeper using C++ and SFML.
-                SFML is essentially a hardware abstraction API.
-                Below is a UML class diagram for the project and screenshots of the finished product. </h3>
+            <h3>
+                The assignment for this project was to re-create the classic logic puzzle game Minesweeper using C++ and SFML.
+                If you aren't familiar with the game, you can play it online 
+                <a href="https://minesweeperonline.com/">here</a>. 
+            </h3>
+            <h3>
+                We added a debug mode to make the development process easier. This mode draws the mines overtop of the tiles 
+                and is enabled by clicking on the icon of the mine with the eye. We also added several test boards to allow
+                for testing, particularly for ease in testing edge cases and replicating errors without having to use
+                randomly generated boards. 
+            </h3>
+            <div class="screenshot">
+                <img src="images/Minesweeper/SFML.png" alt="SFML logo", width="300px">
+            </div>
+            <h3>
+                To create the GUI, we used Simple and Fast Multimedia Library (SFML). SFML is essentially a hardware 
+                abstraction API. It allows the programmer to easily render assets using C++ library. 
+            </h3>
+        </div>
+
+        <div class="subtitle">
+            <h2>Project Structure</h2>
+        </div>
+
+        <div class="description">
+            <h3>
+                The basic program structure is a two-dimensional array of tile objects. 
+                Random.cpp was provided by the professor. It has a member variable random which is an instance 
+                of the mt19937 class using the time as the seed. This class is part of the C++ standard library 
+                and Mersenne Twister 19937 generator, a pseudo-random number generator that produces 32-bit numbers. 
+                The class then uses uniform_int_distribution and uniform_real_distribution to transform the random 
+                number into an integer or floating point number respectively within the specified range to be used 
+                in the generation of the distribution of 50 mines. 
+            </h3>
+            <h3>
+                Below is a <b>UML class diagram</b> for the project and a screenshots of the finished product. 
+            </h3>
         </div>
 
         <div class="screenshot">
